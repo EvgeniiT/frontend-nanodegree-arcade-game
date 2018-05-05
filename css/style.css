@@ -1,3 +1,35 @@
 body {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modalWindow {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    top: 140px;
+    width: 506px;
+    height: 606px;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(255,255,255,1); /* Black w/ opacity */
+}
+
+.selectChar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.score-panel {
+    display: flex;
+    justify-content: space-around;
+    width: 505px;
 }

@@ -1,13 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Effective JavaScript: Frogger</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <title>Frogger</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
-    <script src="js/resources.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/engine.js"></script>
+
+
+  <div class="container">
+    <header>
+      <h1>Collect as much gems as you dare!</h1>
+      <!-- <h1>Menu</h1> -->
+    </header>
+
+    <section id="menuModal" class="modalWindow">
+      <div calss="modalContent">
+        <h2>Menu</h2>
+        <h3>Select character</h3>
+        <div class="selectChar">
+          <img class="charImg" src="images/char-boy.png">
+          <img class="charImg" src="images/char-cat-girl.png">
+          <img class="charImg" src="images/char-horn-girl.png">
+          <img class="charImg" src="images/char-pink-girl.png">
+          <img class="charImg" src="images/char-princess-girl.png">
+        </div>
+      </div>
+    </section>
+
+    <section id="gameOverModal" class="modalWindow">
+      <div calss="modalContent">
+        <h2>GAME OVER</h2>
+      </div>
+    </section>
+
+    <section class="score-panel">
+      <div class="menu">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
+
+      <div class="gems">
+        <i id="gemsCounter" class="fa fa-diamond fa-3x"></i>
+      </div>
+
+      <div class="restart">
+        <i class="fa fa-repeat fa-2x"></i>
+      </div>
+    </section>
+
+
+  </div>
+  <script src="js/resources.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/engine.js"></script>
 </body>
 </html>

@@ -1,6 +1,16 @@
 frontend-nanodegree-arcade-game
 ===============================
+#Arcade game
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+##Run
+To run game, just open index.html file in your browser.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+##Play
+To play the game use arrows to move the player. Try to collect as many gems as possible. Avoid bugs, once you have a collision with them the game will be over. You can change look of your player in menu. To access menu click hamburger icon in the left corner. To restart the game click restart icon in the right corner.
+
+##Dependences
+Font-awesome 4.6.1
+https://fontawesome.com/
+
+Roboto font
+https://fonts.google.com/specimen/Roboto?selection.family=Roboto
